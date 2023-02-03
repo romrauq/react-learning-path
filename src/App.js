@@ -5,12 +5,13 @@ import "./App.css";
 // import ClassComponent from "./components/ClassComponent";
 // import ClassReactComponent from "./components/ClassReactComponent";
 // import UsingState from "./components/UsingState";
-import ChangeState from "./components/ChangeState";
+// import ChangeState from "./components/ChangeState";
+import UseState from "./components/UseState";
 
 const App = () => {
 	return (
 		<div>
-			<ChangeState />
+			<UseState />
 		</div>
 	);
 };
