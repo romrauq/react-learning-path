@@ -6,12 +6,13 @@ import "./App.css";
 // import ClassReactComponent from "./components/ClassReactComponent";
 // import UsingState from "./components/UsingState";
 // import ChangeState from "./components/ChangeState";
-import UseState from "./components/UseState";
+// import UseState from "./components/UseState";
+import UseStateChange from "./components/UseStateChange";
 
 const App = () => {
 	return (
 		<div>
-			<UseState />
+			<UseStateChange />
 		</div>
 	);
 };
