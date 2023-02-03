@@ -7,12 +7,13 @@ import "./App.css";
 // import UsingState from "./components/UsingState";
 // import ChangeState from "./components/ChangeState";
 // import UseState from "./components/UseState";
-import UseStateChange from "./components/UseStateChange";
+// import UseStateChange from "./components/UseStateChange";
+import CounterComponent from "./components/CounterComponent";
 
 const App = () => {
 	return (
 		<div>
-			<UseStateChange />
+			<CounterComponent />
 		</div>
 	);
 };
