@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UseStateChange = () => {
+const FunctionStateChangeTwo = () => {
 	const [username, setUsername] = useState("Johann Liebert");
 	const [inputValue, setInputValue] = useState("");
 
@@ -30,4 +30,4 @@ const UseStateChange = () => {
 	);
 };
 
-export default UseStateChange;
+export default FunctionStateChangeTwo;

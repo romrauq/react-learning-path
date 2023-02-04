@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CounterComponent = () => {
+const FunctionStateChange = () => {
 	const [count, setCount] = useState(0);
 
 	const increment = () => {
@@ -20,4 +20,4 @@ const CounterComponent = () => {
 	);
 };
 
-export default CounterComponent;
+export default FunctionStateChange;
