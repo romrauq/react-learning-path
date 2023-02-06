@@ -19,12 +19,13 @@ import "./App.css";
 // import ReactForm from "./components/ReactForm";
 // import SubmitForm from "./components/SubmitForm";
 // import ReactFormMultipleFields from "./components/ReactFormMultipleFields";
-import ReactFormTextArea from "./components/ReactFormTextArea";
+// import ReactFormTextArea from "./components/ReactFormTextArea";
+import ReactSelectForm from "./components/ReactSelectForm";
 
 const App = () => {
 	return (
 		<div>
-			<ReactFormTextArea />
+			<ReactSelectForm />
 		</div>
 	);
 };
