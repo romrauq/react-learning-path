@@ -13,8 +13,10 @@ const ReactFormTextArea = () => {
 
 	return (
 		<div>
-			<textarea value={inputValue} onChange={handleChange} />
-			<button onClick={handleClick}>Click Me!</button>
+			<form>
+				<textarea value={inputValue} onChange={handleChange} />
+				<button onClick={handleClick}>Click Me!</button>
+			</form>
 		</div>
 	);
 };
