@@ -17,12 +17,13 @@ import "./App.css";
 // import ReactLists from "./components/ReactLists";
 // import ReactListsKeys from "./components/ReactListsKeys";
 // import ReactForm from "./components/ReactForm";
-import SubmitForm from "./components/SubmitForm";
+// import SubmitForm from "./components/SubmitForm";
+import ReactFormMultipleFields from "./components/ReactFormMultipleFields";
 
 const App = () => {
 	return (
 		<div>
-			<SubmitForm />
+			<ReactFormMultipleFields />
 		</div>
 	);
 };
