@@ -14,9 +14,17 @@ import "./App.css";
 // import FunctionStateChangeTwo from "./components/FunctionStateChangeTwo";
 // import ConditionalRendering from "./components/ConditionalRendering";
 // import ConditionalRenderingTwo from "./components/ConditionalRenderingTwo";
+// import ReactLists from "./components/ReactLists";
+// import ReactListsKeys from "./components/ReactListsKeys";
+// import ReactForm from "./components/ReactForm";
+import SubmitForm from "./components/SubmitForm";
 
 const App = () => {
-	return <div></div>;
+	return (
+		<div>
+			<SubmitForm />
+		</div>
+	);
 };
 
 export default App;
