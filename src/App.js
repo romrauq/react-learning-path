@@ -18,12 +18,13 @@ import "./App.css";
 // import ReactListsKeys from "./components/ReactListsKeys";
 // import ReactForm from "./components/ReactForm";
 // import SubmitForm from "./components/SubmitForm";
-import ReactFormMultipleFields from "./components/ReactFormMultipleFields";
+// import ReactFormMultipleFields from "./components/ReactFormMultipleFields";
+import ReactFormTextArea from "./components/ReactFormTextArea";
 
 const App = () => {
 	return (
 		<div>
-			<ReactFormMultipleFields />
+			<ReactFormTextArea />
 		</div>
 	);
 };
