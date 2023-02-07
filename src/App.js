@@ -21,12 +21,13 @@ import "./App.css";
 // import ReactFormMultipleFields from "./components/ReactFormMultipleFields";
 // import ReactFormTextArea from "./components/ReactFormTextArea";
 // import ReactSelectForm from "./components/ReactSelectForm";
-import ReactMemo from "./components/ReactMemo";
+// import ReactMemo from "./components/ReactMemo";
+import ReactMemoFix from "./components/ReactMemoFix";
 
 const App = () => {
 	return (
 		<div>
-			<ReactMemo />
+			<ReactMemoFix />
 		</div>
 	);
 };
