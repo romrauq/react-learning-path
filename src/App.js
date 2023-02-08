@@ -22,12 +22,13 @@ import "./App.css";
 // import ReactFormTextArea from "./components/ReactFormTextArea";
 // import ReactSelectForm from "./components/ReactSelectForm";
 // import ReactMemo from "./components/ReactMemo";
-import ReactMemoFix from "./components/ReactMemoFix";
+// import ReactMemoFix from "./components/ReactMemoFix";
+import ReactStylingInline from "./components/ReactStylingInline";
 
 const App = () => {
 	return (
 		<div>
-			<ReactMemoFix />
+			<ReactStylingInline />
 		</div>
 	);
 };
