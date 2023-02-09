@@ -29,12 +29,13 @@ import "./App.css";
 // import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
 // import ReactUseStateObjectChange from "./components/10-react-hooks/ReactUseStateObjectChange";
 // import ReactUseEffect from "./components/10-react-hooks/ReactUseEffect";
-import ReactUseEffectTwo from "./components/10-react-hooks/ReactUseEffectTwo";
+// import ReactUseEffectTwo from "./components/10-react-hooks/ReactUseEffectTwo";
+import ReactUseEffectCleanup from "./components/10-react-hooks/ReactUseEffectCleanup";
 
 const App = () => {
 	return (
 		<div>
-			<ReactUseEffectTwo />
+			<ReactUseEffectCleanup />
 		</div>
 	);
 };
