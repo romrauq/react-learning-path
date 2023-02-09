@@ -13,6 +13,7 @@ const ReactUseEffectTwo = () => {
 		<div>
 			<p>Count: {count}</p>
 			<button onClick={() => setCount((c) => c + 1)}> Addition</button>
+			<button onClick={() => setCount((c) => c - 1)}>Subtraction</button>
 			<p>Calculation: {formula}</p>
 		</div>
 	);
