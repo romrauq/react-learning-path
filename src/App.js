@@ -27,12 +27,14 @@ import "./App.css";
 // import ReactStylingObject from "./components/09-css-styling/ReactStylingObject";
 // import ReactUseState from "./components/10-react-hooks/ReactUseState";
 // import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
-import ReactUseStateObjectChange from "./components/10-react-hooks/ReactUseStateObjectChange";
+// import ReactUseStateObjectChange from "./components/10-react-hooks/ReactUseStateObjectChange";
+// import ReactUseEffect from "./components/10-react-hooks/ReactUseEffect";
+import ReactUseEffectTwo from "./components/10-react-hooks/ReactUseEffectTwo";
 
 const App = () => {
 	return (
 		<div>
-			<ReactUseStateObjectChange />
+			<ReactUseEffectTwo />
 		</div>
 	);
 };
