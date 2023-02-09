@@ -26,12 +26,13 @@ import "./App.css";
 // import ReactStylingInline from "./components/09-css-styling/ReactStylingInline";
 // import ReactStylingObject from "./components/09-css-styling/ReactStylingObject";
 // import ReactUseState from "./components/10-react-hooks/ReactUseState";
-import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
+// import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
+import ReactUseStateObjectChange from "./components/10-react-hooks/ReactUseStateObjectChange";
 
 const App = () => {
 	return (
 		<div>
-			<ReactUseStateObject />
+			<ReactUseStateObjectChange />
 		</div>
 	);
 };
