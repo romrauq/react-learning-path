@@ -24,12 +24,14 @@ import "./App.css";
 // import ReactMemo from "./components/08-react-memo/ReactMemo";
 // import ReactMemoFix from "./components/08-react-memo/ReactMemoFix";
 // import ReactStylingInline from "./components/09-css-styling/ReactStylingInline";
-import ReactStylingObject from "./components/09-css-styling/ReactStylingObject";
+// import ReactStylingObject from "./components/09-css-styling/ReactStylingObject";
+// import ReactUseState from "./components/10-react-hooks/ReactUseState";
+import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
 
 const App = () => {
 	return (
 		<div>
-			<ReactStylingObject />
+			<ReactUseStateObject />
 		</div>
 	);
 };
