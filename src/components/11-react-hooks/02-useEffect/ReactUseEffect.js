@@ -7,7 +7,7 @@ const ReactUseEffect = () => {
 		setTimeout(() => {
 			setCount(count + 1);
 		}, 1000);
-	}, []); // Empty array as a second argument of useEffect limits render to one time.
+	}, []); // An empty array as a second argument of useEffect() sets it to run once.
 	return (
 		<div>
 			<p>
