@@ -23,19 +23,21 @@ import "./App.css";
 // import ReactSelectForm from "./components/07-react-forms/ReactSelectForm";
 // import ReactMemo from "./components/08-react-memo/ReactMemo";
 // import ReactMemoFix from "./components/08-react-memo/ReactMemoFix";
-// import ReactStylingInline from "./components/09-css-styling/ReactStylingInline";
-// import ReactStylingObject from "./components/09-css-styling/ReactStylingObject";
-// import ReactUseState from "./components/10-react-hooks/ReactUseState";
-// import ReactUseStateObject from "./components/10-react-hooks/ReactUseStateObject";
-// import ReactUseStateObjectChange from "./components/10-react-hooks/ReactUseStateObjectChange";
-// import ReactUseEffect from "./components/10-react-hooks/ReactUseEffect";
-// import ReactUseEffectTwo from "./components/10-react-hooks/ReactUseEffectTwo";
-import ReactUseEffectCleanup from "./components/10-react-hooks/ReactUseEffectCleanup";
+// import ReactStylingInline from "./components/10-css-styling/ReactStylingInline";
+// import ReactStylingObject from "./components/10-css-styling/ReactStylingObject";
+// import ReactUseState from "./components/11-react-hooks/01-useState/ReactUseState";
+// import ReactUseStateObject from "./components/11-react-hooks/01-useState/ReactUseStateObject";
+// import ReactUseStateObjectChange from "./components/11-react-hooks/01-useState/ReactUseStateObjectChange";
+// import ReactPrevState from "./components/11-react-hooks/01-useState/ReactPrevState";
+// import ReactUseEffect from "./components/11-react-hooks/02-useEffect/ReactUseEffect";
+// import ReactUseEffectTwo from "./components/11-react-hooks/02-useEffect/ReactUseEffectTwo";
+// import ReactUseEffectCleanup from "./components/11-react-hooks/02-useEffect/ReactUseEffectCleanup";
+import ParentComponent from "./components/11-react-hooks/03-useContext/ParentComponent";
 
 const App = () => {
 	return (
 		<div>
-			<ReactUseEffectCleanup />
+			<ParentComponent />
 		</div>
 	);
 };
