@@ -5,7 +5,7 @@ import ChildComponent from "./ChildComponent";
 export const UserContext = React.createContext();
 
 const ParentComponent = () => {
-	const [user, setUser] = useState("Billy Watts");
+	const [user] = useState("Billy Watts");
 
 	return (
 		// Provide state value "user" for use within nested components:
