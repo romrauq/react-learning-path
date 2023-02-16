@@ -32,12 +32,14 @@ import "./App.css";
 // import ReactUseEffect from "./components/11-react-hooks/02-useEffect/ReactUseEffect";
 // import ReactUseEffectTwo from "./components/11-react-hooks/02-useEffect/ReactUseEffectTwo";
 // import ReactUseEffectCleanup from "./components/11-react-hooks/02-useEffect/ReactUseEffectCleanup";
-import ParentComponent from "./components/11-react-hooks/03-useContext/ParentComponent";
+// import ParentComponent from "./components/11-react-hooks/03-useContext/ParentComponent";
+// import ReactUseRef from "./components/11-react-hooks/04-useRef/ReactUseRef";
+import AccessingDomElements from "./components/11-react-hooks/04-useRef/AccessingDomElements";
 
 const App = () => {
 	return (
 		<div>
-			<ParentComponent />
+			<AccessingDomElements />
 		</div>
 	);
 };
