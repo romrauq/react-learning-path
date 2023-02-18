@@ -10,9 +10,9 @@ const ACTIONS = {
 const reducer = (state, action) => {
 	switch (action.type) {
 		case ACTIONS.DECREMENT:
-			return { count: state.count - 1 };
+			return { count: state.count - 1 }; // count property value set to current count value minus 1
 		case ACTIONS.INCREMENT:
-			return { count: state.count + 1 };
+			return { count: state.count + 1 }; // count property value set to current count value plus 1
 		default:
 			return state;
 	}
