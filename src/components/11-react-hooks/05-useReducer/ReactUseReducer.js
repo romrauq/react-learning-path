@@ -20,7 +20,7 @@ const reducer = (state, action) => {
 
 const ReactUseReducer = () => {
 	// Define the component state using the useReducer() hook.
-	const [state, dispatch] = useReducer(reducer, { count: 0 });
+	const [state, dispatch] = useReducer(reducer, { count: 0 }); // useReducer(<reducer>, <initialState>)
 
 	const decrement = () => {
 		dispatch({ type: ACTIONS.DECREMENT }); // Set the action type action to be passed to the reducer function.
