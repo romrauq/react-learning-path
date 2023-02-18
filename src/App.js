@@ -34,12 +34,13 @@ import "./App.css";
 // import ReactUseEffectCleanup from "./components/11-react-hooks/02-useEffect/ReactUseEffectCleanup";
 // import ParentComponent from "./components/11-react-hooks/03-useContext/ParentComponent";
 // import ReactUseRef from "./components/11-react-hooks/04-useRef/ReactUseRef";
-import AccessingDomElements from "./components/11-react-hooks/04-useRef/AccessingDomElements";
+// import AccessingDomElements from "./components/11-react-hooks/04-useRef/AccessingDomElements";
+import ReactUseReducer from "./components/11-react-hooks/05-useReducer/ReactUseReducer";
 
 const App = () => {
 	return (
 		<div>
-			<AccessingDomElements />
+			<ReactUseReducer />
 		</div>
 	);
 };
