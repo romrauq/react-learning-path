@@ -37,12 +37,13 @@ import "./App.css";
 // import AccessingDomElements from "./components/11-react-hooks/04-useRef/AccessingDomElements";
 // import ReactUseReducer from "./components/11-react-hooks/05-useReducer/ReactUseReducer";
 // import ReactUseReducerRevision from "./components/11-react-hooks/05-useReducer/ReactUseReducerRevision";
-import ReactUseCallback from "./components/11-react-hooks/06-useCallback/ReactUseCallback";
+// import ReactUseCallback from "./components/11-react-hooks/06-useCallback/ReactUseCallback";
+import ReactUseMemo from "./components/11-react-hooks/07-useMemo/ReactUseMemo";
 
 const App = () => {
 	return (
 		<div>
-			<ReactUseCallback />
+			<ReactUseMemo />
 		</div>
 	);
 };
