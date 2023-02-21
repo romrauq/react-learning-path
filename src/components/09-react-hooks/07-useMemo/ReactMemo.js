@@ -16,7 +16,7 @@ const ToDos = ({ todos }) => {
 
 const ReactMemo = () => {
 	let [count, setCount] = useState(0);
-	let [todos, setTodos] = useState(["todo item 1", "todo item 2"]);
+	let [todos] = useState(["todo item 1", "todo item 2"]);
 
 	const increment = () => {
 		setCount(count + 1);
